@@ -1,0 +1,7 @@
+const path = require('path');
+
+module.exports = {
+   'seeders-path': path.resolve('src/infrastructure/persistence/common', 'seeders'),
+   'migrations-path': path.resolve('src/infrastructure/persistence/common', 'migrations'),
+   'config': path.resolve('src/infrastructure/persistence/common', 'config.ts'),
+}
